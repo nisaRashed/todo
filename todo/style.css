@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+
+
+
+
+.inputDiv{
+    box-sizing: border-box;
+    width: 800px;
+    background-color: white ;
+    margin: 20px 100px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.inputDiv input{
+    
+    padding: 20px;
+    width: 400px;
+    size: 300px;
+}
+
+.inputDiv button{
+
+padding: 20px;
+background-color: green;
+
+color: white;
+cursor: pointer;
+width: 100px;
+    
+}
+
+font{
+    font-size: 3em;
+    margin: 0px 350px; 
+    background-color: burlywood; 
+    padding: 10px 30px;
+    border-radius: 30px; 
+    font-weight: bold;    
+}
+
+
+#list{
+  margin: 0px 30px;
+  list-style-type: none;  
+}
+
+.listItem{
+    position: relative;
+    background-color:darkgray;
+    color:white;
+    margin: 20px 0px;
+    height: 40px;
+    padding: 7px 10px;
+    font-size: 26px;
+}
+
+.del{
+    position: absolute;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 0px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.edit{
+    position: absolute;
+    right: 115px;
+    background-color: rgb(255, 0, 128);
+    color: white;
+    padding: 0px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.delAll{
+    margin: 0px 300px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
